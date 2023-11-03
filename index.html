@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/html_css_98_RomanYurkiv/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>In Code We Trust</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <script type="module" crossorigin src="/html_css_98_RomanYurkiv/assets/index-69503c04.js"></script>
+    <link rel="stylesheet" href="/html_css_98_RomanYurkiv/assets/index-5fdc2e24.css">
+  </head>
+  <body>
+
+    <header class="page-header">
+  <div class="header-container container">
+    <nav class="navbar">
+      <a class="logo-header" href="../index.html">
+        <img
+          class="logo"
+          src="/html_css_98_RomanYurkiv/assets/logo-7a891125.svg"
+          alt="logo-vyshyvanka"
+          width="44"
+          height="39"
+        />
+      </a>
+
+      <ul class="menu-desktop">
+        <li  class="menu-desktop-item">
+          <a  href="#about-us">About Us</a>
+        </li>
+        <li class="menu-desktop-item">
+          <a href="#collection">Our Collection</a>
+        </li>
+        <li class="menu-desktop-item">
+          <a href="#your-order">Customer Order</a>
+        </li>
+        <li class="menu-desktop-item">
+          <a href="#testimonials">Testimonials</a>
+        </li>
+      </ul>
+      <address class="address">
+        <a class="menu-contacts-item" href="tel:+380684439426"
+          >+380 (68) 443-94-26</a
+        >
+      </address>
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a
+            class="social-link"
+            href="https://www.facebook.com/goITclub/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="icon" height="28" width="28">
+              <use href="/html_css_98_RomanYurkiv/assets/svgicon-53b1d990.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="nav-list-item">
+          <a
+            class="social-link"
+            href="https://www.instagram.com/goitclub/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="icon" height="28" width="28">
+              <use href="/html_css_98_RomanYurkiv/assets/svgicon-53b1d990.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="nav-list-item">
+          <a
+            class="social-link"
+            href="https://www.youtube.com/c/GoIT"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg class="icon" height="28" width="28">
+              <use href="/html_css_98_RomanYurkiv/assets/svgicon-53b1d990.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <button type="button" onclick="onOpen()" class="burger-menu">
+        <svg class="open-btn-icon" height="24" width="36">
+          <use href="/html_css_98_RomanYurkiv/assets/svgicon-53b1d990.svg#icon-menubtn"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+
+  <div class="mob-menu" id="menu">
+    <address class="address">
+      <a class="mob-menu-contacts-item" href="tel:+380684439426"
+        >+380 (68) 443-94-26</a
+      >
+    </address>
+    <button type="button" onclick="onClose()" class="menu-close-btn">
+      <svg class="close-icon" width="36" height="36">
+        <use href="/html_css_98_RomanYurkiv/assets/svgicon-53b1d990.svg#icon-closebtn"></use>
+      </svg>
+    </button>
+    <ul class="mob-menu-list">
+      <li onclick="onClose()" class="mob-menu-list-item">
+        <a href="#about-us">About Us</a>
+      </li>
+      <li onclick="onClose()" class="mob-menu-list-item">
+        <a href="#collection">Our Collection</a>
+      </li>
+      <li onclick="onClose()" class="mob-menu-list-item">
+        <a href="#your-order">Customer Order</a>
+      </li>
+      <li onclick="onClose()" class="mob-menu-list-item">
+        <a href="#testimonials">Testimonials</a>
+      </li>
+    </ul>
+  </div>
+  <div class="mob-ornament"></div>
+  <script>
+    const menu = document.getElementById("menu");
+
+    const onOpen=()=> {
+      menu.classList.add("is-open");
+    }
+
+    const onClose = () => {
+      menu.classList.remove("is-open")
+    }
+
+  </script>
+</header>
+
+
+    <main>
+
+      <section class="container hero">
+<div class="hero-class">
+    <div class="hero-title-btn-class">
+    <h1 class="hero-title">
+        Reviving the traditional <span class="hero-title-span">Ukrainian</span> artistry in every stitch.
+    </h1>
+    <div class="hero-div-btn">
+    <a class="hero-btn-order" href="#your-order">Order
+        <svg class="hero-svg-arrow" width="26" height="10">
+           <use href="/html_css_98_RomanYurkiv/assets/icons-cf7dfbef.svg#icon-arrow"></use>
+        </svg>
+    </a>
+    </div>
+    </div>
+    <div class="hero-img-class">
+    <picture>
+       <source
+       srcset="/html_css_98_RomanYurkiv/assets/hero-girl-ds-1fc1d183.png 1x, /html_css_98_RomanYurkiv/assets/hero-girl-ds-2x-3c18d306.png 2x"
+       media="(min-width: 1280px)"
+       /> 
+       <source
+       srcset="/html_css_98_RomanYurkiv/assets/hero-girl-tab-7c0f745c.png 1x, /html_css_98_RomanYurkiv/assets/hero-girl-tab-2x-21ecfef7.png 2x"
+       media="(min-width: 768px)"
+       /> 
+       <source
+       srcset="/html_css_98_RomanYurkiv/assets/hero-girl-476f6491.png 1x, /html_css_98_RomanYurkiv/assets/hero-girl-2x-3b44265b.png 2x"
+       media="(max-width: 375px)"
+       /> 
+       <img class="hero-img" src="/html_css_98_RomanYurkiv/assets/hero-girl-476f6491.png" 
+       alt="Ukrainian girl" 
+       width="335" 
+       height="545">
+    </picture>
+    </div>
+</div>
+    <div class="hero-div-star">
+        <svg class="hero-svg-star" width="52" height="51">
+            <use href="/html_css_98_RomanYurkiv/assets/icons-cf7dfbef.svg#icon-star"></use>
+        </svg>
+        <p class="hero-star-text">all embroidery is made by hand</p>
+    </div>
+    <div class="hero-div-ukraine">
+        <picture>
+            <source
+            srcset="/html_css_98_RomanYurkiv/assets/sorochka-ukr-ds-b9701c42.png 1x, /html_css_98_RomanYurkiv/assets/sorochka-ukr-2x-ds-c158fcaf.png 2x"
+            media="(min-width: 1280px)"
+            />
+            <source
+            srcset="/html_css_98_RomanYurkiv/assets/sorochka-ukr-adc31bbb.png 1x, /html_css_98_RomanYurkiv/assets/sorochka-ukr-2x-tab-070bf97c.png 2x"
+            media="(min-width: 768px)"
+            />
+            <img class="hero-img-ukraine" 
+            src="/html_css_98_RomanYurkiv/assets/sorochka-ukr-adc31bbb.png" 
+            alt="ukraine" 
+            width="157" 
+            height="191">
+        </picture>
+    </div>
+</section>
+
+      <section class="about-section" id="about-us">
+    <div class="container about-container">
+        <div class="about-context-container">
+            <h2 class="about-title">About Us</h2>
+            <p class="about-text">
+                The store "Vyshyvanka Vibes" is a place where traditional Ukrainian vyshyvanka comes to life with new zest and style.
+                Our store offers a wide selection of high-quality and authentic embroidery, which combines the elegance of traditional
+                needlework and modern design.
+            </p>
+            <p class="about-text">
+                In "Vyshyvanka Vibes" you will find various models of embroidery, from classic to modern, corresponding to the latest
+                fashion trends. Our embroidery is made using natural fabrics and is embroidered by highly qualified craftsmen who convey
+                the beauty of Ukrainian culture in every detail.We believe that vyshyvanka is not just clothing, but a symbol of
+                national pride, the heritage of our ancestors and a way of expressing one's individuality. Each embroidery from
+                "Vyshyvanka Vibes" has its own unique history and symbolism, which gives it a special meaning.
+            </p>
+        </div>
+
+        <picture>
+            <source srcset="/html_css_98_RomanYurkiv/assets/about-img-desk-3344a4ba.jpg 1x, /html_css_98_RomanYurkiv/assets/about-img-desk2x-912989d7.jpg 2x" media="(min-width: 1440px)" width="709" height="545">
+            <source srcset="/html_css_98_RomanYurkiv/assets/about-img-ade28718.jpg 1x, /html_css_98_RomanYurkiv/assets/about-img2x-bc2a19a3.jpg 2x" media="(min-width: 1280px)" width="594" height="545">
+            <source srcset="/html_css_98_RomanYurkiv/assets/about-img-tab-d24a828c.jpg 1x, /html_css_98_RomanYurkiv/assets/about-img-tab2x-8d4a30f2.jpg 2x" media="(min-width: 768px)" width="704" height="545">
+            <source srcset="/html_css_98_RomanYurkiv/assets/about-img-mob-e97380a2.jpg 1x, /html_css_98_RomanYurkiv/assets/about-img-mob2x-147c90d5.jpg 2x" media="(max-width: 767px)">
+            <img src="/html_css_98_RomanYurkiv/assets/about-img-mob-e97380a2.jpg" alt="Floral embroidery on a shirt sleeve" width="335" height="499">
+        </picture>
+
+    </div>
+</section>
+      <section class="collection container">
+    <div id="collection" class="collection-container">
+        <h2 class="collection-tittle">Our collection</h2>
+        <ul class="collection-list">
+            <li class="collection-item">
+                <div class="collection-cover-container">
+                    <picture>
+                        <source srcset="/html_css_98_RomanYurkiv/assets/poltava-desk-b511618f.jpg , /html_css_98_RomanYurkiv/assets/poltava-desk2x-014baf9d.jpg " media="(min-width: 1440px)">
+                        <source srcset="/html_css_98_RomanYurkiv/assets/poltava-261eb20a.jpg , /html_css_98_RomanYurkiv/assets/poltava2x-8321de31.jpg "
+                            media="(min-width: 1280px)">
+                        <source
+                            srcset="/html_css_98_RomanYurkiv/assets/poltava-tablet-a486dd8d.jpg , /html_css_98_RomanYurkiv/assets/poltava-tablet2x-bcd8cab7.jpg "
+                            media="(min-width: 768px)">
+                        <source srcset="/html_css_98_RomanYurkiv/assets/poltava-mob-55149b28.jpg , /html_css_98_RomanYurkiv/assets/poltava-mob2x-8c5dc25a.jpg "
+                            media="(max-width: 767px)">
+                        <img src="/html_css_98_RomanYurkiv/assets/poltava-261eb20a.jpg" alt="VishivankaPoltava">
+                    </picture>
+                </div>
+                <div class="collection-description">
+                    <h3 class="collection-name">AUGUST Poltava women's blouse<span class="text-point">...</span><span class="word-end">RING</span></h3>
+                    <p class="collection-price">3300 UAH</p>
+                </div>
+                <div class="background-png">
+
+                </div>
+
+            </li>
+            <li class="collection-item">
+                <div class="collection-cover-container">
+                    <picture>
+                        <source srcset="/html_css_98_RomanYurkiv/assets/gorgany-desk-95b64c3a.jpg , /html_css_98_RomanYurkiv/assets/gorgany-desk2x-cbd8a2bd.jpg " media="(min-width: 1440px)">
+                        <source srcset="/html_css_98_RomanYurkiv/assets/gorgany-906439b8.jpg , /html_css_98_RomanYurkiv/assets/gorgany2x-d58748b9.jpg "
+                            media="(min-width: 1280px)">
+                        <source
+                            srcset="/html_css_98_RomanYurkiv/assets/gorgany-tablet-52436ab7.jpg , /html_css_98_RomanYurkiv/assets/gorgany-tablet2x-b330da39.jpg "
+                            media="(min-width: 768px)">
+                        <source srcset="/html_css_98_RomanYurkiv/assets/gorgany-mob-e163d1ad.jpg , /html_css_98_RomanYurkiv/assets/gorgany-mob2x-e15d3e17.jpg "
+                            media="(max-width: 767px)">
+                        <img src="/html_css_98_RomanYurkiv/assets/gorgany-906439b8.jpg" alt="VishivankaGorgany">
+                    </picture>
+
+                </div>
+                <div class="collection-description">
+                    <h3 class="collection-name">Women's blouse Gorgany</h3>
+                    <p class="collection-price">3350 UAH</p>
+                </div>
+            </li>
+            <li class="collection-item">
+                <div class="collection-cover-container">
+                    <picture>
+                        <source srcset="/html_css_98_RomanYurkiv/assets/crimea-desk-fafe816c.jpg , /html_css_98_RomanYurkiv/assets/crimea-desk2x-8ba45d0c.jpg " media="(min-width: 1440px)">
+                        <source srcset="/html_css_98_RomanYurkiv/assets/crimea-fab350af.jpg , /html_css_98_RomanYurkiv/assets/crimea2x-a4284d76.jpg "
+                            media="(min-width: 1280px)">
+                        <source
+                            srcset="/html_css_98_RomanYurkiv/assets/crimea-tablet-525bc17e.jpg , /html_css_98_RomanYurkiv/assets/crimea-tablet2x-c82ff89c.jpg "
+                            media="(min-width: 768px)">
+                        <source srcset="/html_css_98_RomanYurkiv/assets/crimea-mob-27c8e50a.jpg , /html_css_98_RomanYurkiv/assets/crimea-mob2x-3df7d75a.jpg "
+                            media="(max-width: 767px)">
+                        <img src="/html_css_98_RomanYurkiv/assets/crimea-fab350af.jpg" alt="VishivankaCrimea">
+                    </picture>
+
+                </div>
+                <div class="collection-description">
+                    <h3 class="collection-name">Women's blouse Crimea</h3>
+                    <p class="collection-price">4000 UAH</p>
+                </div>
+            </li>
+            <li class="collection-item">
+                <div class="collection-cover-container">
+                    <picture>
+                        <source srcset="/html_css_98_RomanYurkiv/assets/verkhovina-desk-min-30c3e202.jpg , /html_css_98_RomanYurkiv/assets/verkhovina-desk2x-min-d6369f53.jpg " media="(min-width: 1440px)">
+                        <source srcset="/html_css_98_RomanYurkiv/assets/verkhovina-2344db1e.jpg , /html_css_98_RomanYurkiv/assets/verkhovina2x-259ccc8e.jpg "
+                            media="(min-width: 1280px)">
+                        <source
+                            srcset="/html_css_98_RomanYurkiv/assets/verkhovina-tablet-875f1a43.jpg , /html_css_98_RomanYurkiv/assets/verkhovina-tablet2x-c9c08ff1.jpg "
+                            media="(min-width: 768px)">
+                        <source
+                            srcset="/html_css_98_RomanYurkiv/assets/verkhovina-mob-b9798a8a.jpg , /html_css_98_RomanYurkiv/assets/verkhovina-mob2x-2c156063.jpg "
+                            media="(max-width: 767px)">
+                        <img src="/html_css_98_RomanYurkiv/assets/verkhovina-2344db1e.jpg" alt="VishivankaVerkhovina">
+                    </picture>
+
+                </div>
+                <div class="collection-description">
+                    <h3 class="collection-name">Men's shirt Verkhovina</h3>
+                    <p class="collection-price">3100 UAH</p>
+                </div>
+            </li>
+            <li class="collection-item">
+                <div class="collection-cover-container">
+                    <picture>
+                        <source srcset="/html_css_98_RomanYurkiv/assets/mountain-desk-84dc7873.jpg , /html_css_98_RomanYurkiv/assets/mountain-desk2x-eb4296df.jpg " media="(min-width: 1440px)">
+                        <source srcset="/html_css_98_RomanYurkiv/assets/mountain-c38dece1.jpg , /html_css_98_RomanYurkiv/assets/mountain2x-0f528a61.jpg "
+                            media="(min-width: 1280px)">
+                        <source
+                            srcset="/html_css_98_RomanYurkiv/assets/mountain-tablet-9054aad1.jpg , /html_css_98_RomanYurkiv/assets/mountain-tablet2x-3632e35f.jpg "
+                            media="(min-width: 768px)">
+                        <source srcset="/html_css_98_RomanYurkiv/assets/mountain-mob-0f10d739.jpg , /html_css_98_RomanYurkiv/assets/mountain-mob2x-bdf49c13.jpg "
+                            media="(max-width: 767px)">
+                        <img src="/html_css_98_RomanYurkiv/assets/mountain-c38dece1.jpg" alt="VishivankaMountain">
+                    </picture>
+
+                </div>
+                <div class="collection-description">
+                    <h3 class="collection-name">Mountain men's shirt</h3>
+                    <p class="collection-price">3300 UAH</p>
+                </div>
+            </li>
+            <li class="collection-item">
+                <div class="collection-cover-container">
+                    <picture>
+                        <source srcset="/html_css_98_RomanYurkiv/assets/yasen-desk-96952754.jpg , /html_css_98_RomanYurkiv/assets/yasen-desk2x-64f24609.jpg " media="(min-width: 1440px)">
+                        <source srcset="/html_css_98_RomanYurkiv/assets/yasen-3ac43e7e.jpg , /html_css_98_RomanYurkiv/assets/yasen2x-c0f8ece0.jpg "
+                            media="(min-width: 1280px)">
+                        <source srcset="/html_css_98_RomanYurkiv/assets/yasen-tablet-bd390ab9.jpg , /html_css_98_RomanYurkiv/assets/yasen-tablet2x-826a827f.jpg "
+                            media="(min-width: 768px)">
+                        <source srcset="/html_css_98_RomanYurkiv/assets/yasen-mob-ed643545.jpg , /html_css_98_RomanYurkiv/assets/yasen-mob2x-8f02cbd8.jpg "
+                            media="(max-width: 767px)">
+                        <img src="/html_css_98_RomanYurkiv/assets/yasen-3ac43e7e.jpg" alt="VishivankaYasen">
+                    </picture>
+
+                </div>
+                <div class="collection-description">
+                    <h3 class="collection-name">Men's shirt Yasen</h3>
+                    <p class="collection-price">1700 UAH</p>
+                </div>
+            </li>
+
+
+        </ul>
+
+    </div>
+
+
+</section>
+      <section class="order">
+  <div class="order-img"></div>
+  <div class="container order-content">
+    <div class="order-content-wrap">
+      <h2 id="your-order" class="order-title">
+        <span class="order-title-color">Your order</span> is our priority:
+        Personalized approach and quality of service
+      </h2>
+
+      <form class="order-form">
+        <input
+          class="order-input"
+          id="user-name"
+          type="text"
+          name="user-name"
+          placeholder="Enter your full name"
+          pattern="[A-Za-z-' ]+"
+          required
+        />
+        <input
+          class="order-input"
+          id="user-email"
+          type="email"
+          name="user-email"
+          placeholder="Enter your email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          required
+        />
+        <textarea
+          class="order-textarea"
+          name="user-comment"
+          id="user-comment"
+          placeholder="Comments"
+        ></textarea>
+        <button class="order-btn" type="submit">
+          send
+          <svg
+            class="order-btn-arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="16"
+            fill="none"
+          >
+            <path
+              d="M20.824 9.967c-.13-.977-.214-1.85-.253-2.617-.016-.78.014-1.455.09-2.025L1.69 16.277l-.898-1.554L19.763 3.77a16.824 16.824 0 0 1-1.82-.972 36.481 36.481 0 0 1-2.119-1.49l1.14-.658c2.406 1.012 4.607 1.518 6.602 1.517l.385.666c-1.013 1.703-1.675 3.862-1.988 6.477l-1.139.657Z"
+            />
+          </svg>
+        </button>
+      </form>
+    </div>
+    <div class="order-picture-wrap">
+      <picture class="order-picture">
+        <source
+          srcset="/html_css_98_RomanYurkiv/assets/order-vyshyvanka-cc69d5e5.jpg 1x, /html_css_98_RomanYurkiv/assets/order-vyshyvanka2x-2ed6178e.jpg 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/html_css_98_RomanYurkiv/assets/order-vyshyvanka-cc69d5e5.jpg 1x, /html_css_98_RomanYurkiv/assets/order-vyshyvanka2x-2ed6178e.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/html_css_98_RomanYurkiv/assets/order-vyshyvanka-tab-3fb59546.jpg 1x, /html_css_98_RomanYurkiv/assets/order-vyshyvanka-tab2x-edaf0fa4.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <img
+          class="order-picture-img"
+          src="/html_css_98_RomanYurkiv/assets/order-vyshyvanka-cc69d5e5.jpg"
+          alt="vyshyvanka"
+          width="638"
+          height="521"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+      <section class="container testimonials-section">
+  <div class="testimonials-container">
+    <h1 class="testimonials-title" id="testimonials">Testimonials</h1>
+    <ul class="testimonials-list">
+      <li class="testimonials-list-item">
+        <img
+          class="testimonials-img"
+          srcset="/html_css_98_RomanYurkiv/assets/ellipse-1-63547ef2.png 1x, /html_css_98_RomanYurkiv/assets/ellipse-1@2x-69f57f3f.png 2x"
+          src="/html_css_98_RomanYurkiv/assets/ellipse-1-63547ef2.png"
+          alt="Maria Tkachuk"
+          width="64"
+          height="64"
+          loading="lazy"
+        />
+        <h3 class="testimonials-subtitle">Maria Tkachuk</h3>
+        <p class="testimonials-text">
+          I was pleasantly surprised by the variety of embroidery offered by
+          Vyshyvanka Vibes. They have models for every taste - from classic to
+          modern. I bought an embroidered dress to celebrate a special occasion
+          and received impeccable service and refinement in every detail.
+        </p>
+      </li>
+
+      <li class="testimonials-list-item">
+        <img
+          class="testimonials-img"
+          srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAACXBIWXMAAAsSAAALEgHS3X78AAAC61BMVEVHcEyCg4ednp/9/v0MDg0JDRubnJ4UFBQtLSwUEBKZmpyPkJDo5eC5t67PzMTGxL4vMTfPyLL+//8PFR0QFBv7/PugoaTb29RITlJiZ2f7/f38/fv4/Pzy8usZICM/QUaYmJT8+/dVWFs+QUjx6tfFwbLv7d3r6NmJi4UNFBoLEBkOFBoNEBScnJ339/NiaWuTm6SBlKdRUlbj38rHvqpocm6trJ7+/v7+///8/f38/f3QyLZVVl3i39KzsaXO1Nz3+er/Ff8O/xX+//8OEhj9//8LDxQPFBz+//4QGCETGiMRFh7+//sbISugoaP8/vwVHCYeJDEYHigiKDSsra8lKzmvsLH9/fimp6mqqqwuNEKoqaukpaejo6UqMD79/fT8//63t7edn6BEQka6ubqysrL7+vOvr6+9v79WYGGdnJvm4tPp5ddbYGPj3cpnZGW1tbWTlZhiXF7S1NT6+vi8vLvIvqrZ08D39evExMSoqab8+u308uXt8fPKxLDRzsPCwsGXm5piaWnm5eTn7O/Oybhlbm9OWFqHiY7l5N7X2dne4+nh39pTUFGLi4K7tKOPkZHIysiioJ9/gYDt6uZxcG/f2MPTyrRzbWqxs7Xw6tb///81O0lbZ2ZXWWBpcW/b2tPv7OD49vDb3eC/uKfW1smEhoHGxLrBvK2CgHeLeXQ8Qk+sqJvx8u1QX17f3dXU0cjOu6/s6NyIgn6ZmZEXGiB9fH12dHdBOz3c2c378+OUkoW6oZNJTFM0MzhESFCUnKbJzcDTwbTMxb7BwLXU3eh9eHGhn4/99u7Ls6ZyYmGkoZWzsqbBp5usk4qtra2ChIgkJix3fH/Nzc7Iz9ZSR0ZweHTUzrv46dm6ws43OkG8ta2DlaefrryQk4mWhHywsJ2jiYJsW1iQi4rz9/nv8vdcV1empJuGtY51f457ipvl7/gzLy58aWGEoIeYs5mtt7mUpLPq5M6uu8fb5/Kum5KFcWi/zuKfkIkCGDmSAAAAQXRSTlMAJuDvBAadAQIDaoQiI2WVGf3g792B8BOHrZHQcmInSlDGb+XvRIKc4G2DupTRQuCz2cng4NHnsLChoODv33LgoS5/o6sAAAv5SURBVFjDvZh3UFPpGsbVzTE5dlzXdXtvd8vdu3t3by8ziIQQcqg5lITEBIKkggmEEohU6b333pEq0nuRKiiKYO9rW/vu/nnfLwHFFVx1Z+4zGYYZyG+e93nf7zvf+Vas+P+IikTTfagvDllBpdFwHD4UHKRjUV/ECk5b99brf3ljsyFo8xt/feWtdTiN9pwsqAX/6vXNhpmGD8Xn84nNf/8Kfx4UUF595SXDJUSQ324AX8/sZhkM2CLvpnz4yToa9Zns0N5cGkOH4ph3PVPu/msDSv63OPi695Z2Y8j0yieZrSkp8uL479f/FomKv7lcVUaEyIsgeBr53ZrSse///TQS6tXry9hBXeMzAUdmqKPirzSc/fgpQVFplL8txzGkG/GNDI0IkvRS5ylPDLbl/xdf1hMNf4O+PAgcGfKZGl9ehjZP21ie4fseTl1uej7REPDfi5XJJwhCFeG8U6kiCDodQK281pDa4qpBKa/gkyWrgyXxsUTKfBKkCnLPiVYkJiQRfCMjCLu11b+vZWxQwlOFb1zCE/h5SyqRiJj0x0l8VVBTtEKxW5H8i1SFBsk3I2OmVKptUPNEUbUbaE+YotLWfyiR1yRVq4hFGCMwuCe6Q9jcOSe8fGasGnIiNSm1LQe9ytS+XvVeLz0x5NCwbyVyuaS6ulrFXwwyoivTRtIqGtKEwqODF6oJPsGT9Id4+cam+mrqC+jvUX4NomyQy+VquUYDJIKemcnkZ2YaIVX3ldX19vbWnRFeHklrLCAIJq8+Vp4R4++rgvyJNx+PCQr7R0rKjL+6Pj8/PDxJRELomZmZMDz0vtjh4breurpfFNFHo9OiSD6d5IWcVTfG+jIN6UzipVcfI1Hxjf7qFLXBjCQ/PyoqPB9I0HUStf5EHdJw++DlLqjuCswAwZMWlTW2aUiyoIAwfGUxCAwZ+KvlKQYhcokkLyooPNxLRKoKvEQqVdCJuuHe3uHhifPRQmFzczkB64QpTdEklUtIUqMhMx+zRMU3+HvOpKg9AdTSUhMeXhOeVF2dlO91RBCWlnZ5d8PEg6oKIYA6Y3SgfClPVK5FIGYm7+NHeUPL/uzvmToTUhYil7e05EXlFecVBgcn1R/0Djsg7Kqc6zx6Prr5Rmfz5U4nGH06KW0hVTH+Ip5UQhryPsQejgAV/yg11SDVwLNIK62XFLfU1GrzIq/7BddrknaFjzYlKxQPxsfPnJ+YOBMdDJNkREqKSaKxTMST14r4vIyPFmoDQxtTQZ6esVqNV32ttra0Jy882M8v6fjBGm1de0XFg+Hx8XNnxicmElRoMTLDo0jmUBmPrMlTAWjjwiaOKvP09DdAIK+CfG2ftrS050hEJAIV9J05N9E+3t7e/lPF8PBIlApmlKCTJJMcLRKRBTw64ZvyKWUBhK8v8gRSam+RhEdqakv7yor6S+MjgpOOtx4sPToyPg6gczcr2s8dVdH5aFvKpBOioVgRwWQSdE1s7iYabR707tkiA/9YT39PiaY6XNtXeqKorN9bGRl0vDU/4fzI+Qft5yoqRm7e/KmBTkfLD/ImeFVlJICMVCGDsvfn06ZR1rYNFUvPDsWOVg1dGRvr1/aVnTjhrSwMzzgu6as4d+6nMzdvjhz9aeLmBb5+iyOYdN5YFQmGCNGoTLZND4KIXjsWUyo5HXM2JjmtpKRktLSntN8tPkJZk3FcGnX0/C8VFYrdwuiJihsCPYjp5UWK2tpEPJ6vb3GyTPaaPiQAfZdbXlU22DgWc/p0TGJTiUt8RMQRJYCkrV41yWnladHNU80jzfunEg0Ric9T+/vyRqtEohT/oiGFTPENRWeJimOflpeM9Tf6jDUm+FwJiAtwUgYHRxYWwkopUAUJb9yY2m/Z2bnf0sIymiDgaUIcnDEQkVVVpO/M2fK0QFnOH7EFRz179sRHRAb7oe8ra70jgvwuBUdEBEUU+l28WLgzef9+y/2mJmbmU1ZKP79Ll4Kj/GdE5Ngoybtr0DbYFJgTiOkmiYpTnHbtmp2O9KsOvn79enAQcK5fvz8QERURfPFSUoGv+sZ2UxMGg2FmZTPXHRk5UNhztl/EK4aMMkLaAnNlslD9IqHSsFN3uk92s+tbSm+fmo0cGBi4f//+wLSyxs+IkPYebz1etN3Y2MTSzMzG0X6uezp+l0tjTJ4ovFzbMnY6cN8+1+xQDJ8H3blz8uQ1cUZGqcNV1vTsvVOnTu2Kd+vXFhAitfzgwdaCaFNTc0sw5Gif1REQcDourKTEhxV4LNQ1ex8oNJcyXxr2p5PXrl1tlPgWu7h3T0/PnrpzTdBTrFXn8/K18KRjXgw1MYWsAZSVVZmTiHQMFCpzDQzNdnUNXQhbB7p6NUCqqd1TOBCpnP7553u3e3pCirSwn0DuF293mYMhC52jykrZseTc3NBcUGBgaGh2dnbud9hC+7+Gyq42hlxp8PG75KecnZ29fevWraEYl3hlRGFkZGRlpQXCAMceSF0y10fKds2WZS8MJE7ZeA/iFg8NFYVIo4KOdLt3B/zww4/lDS674uOPHFHezsqyslgAgSqzAbVvr06u++CXbfrSVtCwDT/P3hOMeqbK1WU9eU6HZTmHAVQidnPycHLy8L5aaW+jBznaOyJYboB7XNjk4WO5oYGB2YB8B19YtOsHptNPV6XGjp4u8VDGdTnaZAMIOE5OO912euRk2dtYIdkglqPj3FyCWCxOSOAmCAICAtzd3VfiC9sI9p9Cpyr/2IbExAPuzgeEWXP7fvzx1qGdbs7Obm47rSvtHQFksWDKxsZ+r0KhSD7QlFgyeeFCnPsqbN4RDNLGI+K02KqYkpLknMDDYWGTiXEPOU7dWQhkYQaDpPdkYyGEU8UjvfZw96dRPrIL7Eq+UNLQpOjqmBRwueJDHrt02rPHO8zeXseBAbDQ12c15R4HIU02HQAlp73z8HkElv6Z1SWUNTQM7hbuDROLfbjsPYBAio8PBRBw0CjpURZWlmFsOzsHWy5LABF9ij0C4dg24d6u6PILMYrLye5ilgvb2UlvxzveGyJCHAbDHEwhloXlVG56OpvNtra2s7W1XYPhi0CbPugQ7m5rO6BochfYst1QNh4eOhLbxt4KcWC5metRVlZmgenWh0DWDhzu1pWLH9k0bFvWnKL8slBxQcw95Jye7rYTSLqQBMiQOcMENgAGIllC6lOHncGNnYODLYe1GnsMRNn0gTAnZ6pTMQkgqAz6Ba48QAJHGzNzE1NjY/2mpIvKPI6NOFAXZ9VKfNGhDQ6i2PvRHR1WHU1xYttDLi7OQHK2000kx8zCEuxs377D2NTExERPCgOQjsNdgz1++KNRsG86hXub4tzFXAc7OzuUwCE3WCFOtmaWDOQHZKojMaC6jnTE4XC4MIyPgZClt4W7E90FLJYtUFygOogJBcU2YxjrOdv1llB5nXZ2iMPZupLy69MojYa93xQXwOJyHKzZ6UhusM7c3JzZNiZQlg60HYFM0BxYcaAqEGr9k8dabG0AGOLaOlhbs60hbyQXH46Vianej/F2vSPUuzgOl8Virf1VYfMvwxRsNQJxOLYOdtZstgt0j23HDTBjwJdNUHE7THWVAYlxAI31aoyy1EsEDcewLwVcDjQD4ra2hpwAxAmzMkeO9CmZ6MSwZOTYsgRfIs5SbyM0qG61zpGOdYjt4uLiYDtpumMHygglrp8ANE9CNIkYbZl3NmgdtlbAghAhS1vdCPhwDsPiQFOEhBoHMwA/zHScZa8nUHVrtrKQgOUAIA73sCUDzZEuox3IEgPG3PTltRgFf8pbLQwBtnKVQMASIBKsAm5CmDlyYWqq96Qrztj487cx/KnXJeitFkytAg6Y8vGBSCcZ+inaobcExRm//Bm2RN+fmAKIfOXqrSxBQgKkJUiAs8h+U11AekeMl/+w6bc5+qDA1Mo1q1gCsRhwMsgHFaf3s2MB82x3ETgFw7B3V69yDwhI6EDdnh/uLV+8A3+g4LRnvWaBGx9wBb7eXfv1B1tQm7Zs+fyLz95GFAqN9hx3Uuj2CO6fkLHFolBwGo363DdRNLjPoszDKEg4/oI3ZLr7NaDpPr/vmg3BVvyer7+A/geXYe6zBT1GIwAAAABJRU5ErkJggg== 1x, /html_css_98_RomanYurkiv/assets/ellipse-2@2x-ddef9a4c.png 2x"
+          src="data:image/png;base64,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"
+          alt="Sergey Rybachok"
+          width="64"
+          height="64"
+          loading="lazy"
+        />
+        <h3 class="testimonials-subtitle">Sergey Rybachok</h3>
+        <p class="testimonials-text">
+          Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka are
+          simply masterpieces! I fell in love with the quality of the materials
+          and the skill of the artisans behind each product. This is my favorite
+          embroidery shop where I always find something special and unique.
+        </p>
+      </li>
+
+      <li class="testimonials-list-item">
+        <img
+          class="testimonials-img"
+          srcset="/html_css_98_RomanYurkiv/assets/ellipse-3-45555032.png 1x, /html_css_98_RomanYurkiv/assets/ellipse-3@2x-3de6b82a.png 2x"
+          src="/html_css_98_RomanYurkiv/assets/ellipse-3-45555032.png"
+          alt="Natalia Chatuk"
+          width="64"
+          height="64"
+          loading="lazy"
+        />
+        <h3 class="testimonials-subtitle">Natalia Chatuk</h3>
+        <p class="testimonials-text">
+          Vyshyvanka Vibes is a real find for everyone who appreciates Ukrainian
+          culture. Their embroidery reflects the spirit and traditions of our
+          people. I not only buy embroidered shirts for myself, but also give
+          them to my friends abroad as a symbol of our beauty and national
+          pride.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+    </main>
+
+    
+<footer class="footer">
+  <div class="container footer-container">
+    <ul class="footer-menu">
+      <li class="footer-menu-list-item">
+        <a href="#about-us" class="footer-menu-link">About us</a>
+      </li>
+      <li class="footer-menu-list-item">
+        <a href="#your-order" class="footer-menu-link">Customer order</a>
+      </li>
+      <li class="footer-menu-list-item">
+        <a href="#collection" class="footer-menu-link">Our collection</a>
+      </li>
+      <li class="footer-menu-list-item">
+        <a href="#testimonials" class="footer-menu-link">Testimonials</a>
+      </li>
+    </ul>
+    <p class="footer-text">
+      A touch of <span class="text-accent">Ukrainian</span> culture in every
+      embroidery
+    </p>
+  </div>
+</footer> 
+
+
+    
+  </body>
+</html>
