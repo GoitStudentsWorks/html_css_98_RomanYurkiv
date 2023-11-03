@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/in-code-we-trust/",
+    "build": "vite build --base=/html_css_98_RomanYurkiv/",
     "preview": "vite preview"
   },
   "devDependencies": {
